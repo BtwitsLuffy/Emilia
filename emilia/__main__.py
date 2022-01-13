@@ -153,7 +153,7 @@ buttons = [
 
     [
 
-        InlineKeyboardButton(text="About Emilia", callback_data="Emilia_"),
+        InlineKeyboardButton(text="About Luffy", callback_data="Rabri"),
 
     ],
 
@@ -173,7 +173,7 @@ buttons = [
 
         InlineKeyboardButton(
 
-            text="➗ Add Emilia To Your Group ➗", url="t.me/EmiliaPrjkt_bot?startgroup=new"),
+            text="➗ Add Luffy To Your Group ➗", url="t.me/Luffy_Group_bot?startgroup=new"),
 
     ],
 
@@ -188,10 +188,10 @@ HELP_STRINGS = """
    ✧ in PM: will send you your settings for all supported modules.
    ✧ in a Group: will redirect you to pm, with all that chat's settings."""
 
-EMILIA_IMG = "https://telegra.ph/file/8142e7aac030eebd40a4e.jpg"
+EMILIA_IMG = "https://telegra.ph/file/1ebeb53b57afebe7f24ba.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-You can support the project by contacting @ZenitsuID \n
+You can support the project by contacting @Rabri \n
 Supporting isnt always financial! \n
 Those who cannot provide monetary support are welcome to help us develop the bot at."""
 
@@ -723,7 +723,7 @@ def emilia_about_callback(update, context):
 
         )
 
-    elif query.data == "Emilia_notes":
+    elif query.data == "Luffy_notes":
 
         query.message.edit_text(
 
@@ -745,11 +745,11 @@ def emilia_about_callback(update, context):
 
         )
 
-    elif query.data == "Emilia_support":
+    elif query.data == "Rabri":
 
         query.message.edit_text(
 
-            text="*✦ Emilia support chats*"
+            text="*✦ VIP SUPPORT *"
 
             "\nJoin My Support Group/Channel for see or report a problem on Emilia.",
 
@@ -761,15 +761,15 @@ def emilia_about_callback(update, context):
 
                  [
 
-                    InlineKeyboardButton(text="Support", url="t.me/emiliasupport"),
+                    InlineKeyboardButton(text="Support", url="t.me/Rabri"),
 
-                    InlineKeyboardButton(text="Updates", url="https://t.me/EmiliaProject"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/Rabri"),
 
                  ],
 
                  [
 
-                    InlineKeyboardButton(text="Back", callback_data="Emilia_"),
+                    InlineKeyboardButton(text="Back", callback_data="Rabri"),
 
                  
 
@@ -781,11 +781,11 @@ def emilia_about_callback(update, context):
 
         )
 
-    elif query.data == "Emilia_credit":
+    elif query.data == "luffy_credit":
 
         query.message.edit_text(
 
-            text=f"✦ *Credis for Emilia*\n"
+            text=f"✦ *Credis for luffy*\n"
 
             "\nHere Developers Making And Give Inspiration For Made The Emilia",
 
